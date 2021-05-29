@@ -17,4 +17,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+     @Test
+        public void simpleTestFail()
+    {
+        assertTrue( 1+2=4 );
+    }
+
 }
